@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">MeowFocus</string>
+
+    <!-- Language -->
+    <string name="language">Language:</string>
+
+    <!-- Focus Screen -->
+    <string name="focus_button">FOCUS</string>
+    <string name="pause_button">PAUSE</string>
+    <string name="hunger">Hunger</string>
+
+    <!-- Timer Dialog -->
+    <string name="set_focus_time">⏱️ Set Focus Time</string>
+    <string name="min_label">MIN</string>
+    <string name="sec_label">SEC</string>
+    <string name="quick_select">Quick Select</string>
+    <string name="back_button">BACK</string>
+    <string name="start_button">START</string>
+
+    <!-- Toast Messages -->
+    <string name="cat_starving">Cat is starving! 😿 Feed your cat first.</string>
+    <string name="times_up">Time\'s up! 🎉</string>
+    <string name="invalid_time">Please set a valid time!</string>
+    <string name="cat_full">Cat is full now! 😺</string>
+    <string name="cat_happy">Cat is happy! Hunger: %d%%</string>
+    <string name="no_fish_bones">No fish bones left!</string>
+    <string name="cannot_feed_while_focusing">Cannot feed while focusing!</string>
+
+    <!-- Navigation Menu -->
+    <string name="statistics">Statistics</string>
+    <string name="beginner_challenges">Beginner Challenges</string>
+    <string name="shop">SHOP</string>
+    <string name="logout">Logout</string>
+
+    <!-- User Info -->
+    <string name="user_name">User Name</string>
+
+    <!-- Logout Dialog -->
+    <string name="logout_message">Are you sure you want to logout? All data will be reset.</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="logged_out_success">Logged out successfully</string>
+
+    <!-- Edit Name Dialog -->
+    <string name="edit_name">Edit Your Name</string>
+    <string name="save">Save</string>
+    <string name="name_cannot_empty">Name cannot be empty</string>
+    <string name="name_updated">Name updated!</string>
+
+    <!-- Statistics Screen -->
+    <string name="stats_title">STATISTICS</string>
+    <string name="total_focus_time">Total Focus Time</string>
+    <string name="total_sessions">Total Sessions</string>
+    <string name="achievements">Achievements</string>
+    <string name="minutes">minutes</string>
+    <string name="sessions">sessions</string>
+    <string name="focus_time_statistics">Focus Time Statistics</string>
+    <string name="focus_time_tracking">Focus Time Tracking</string>
+    <string name="total_focus_time_format">Total Focus Time: %1$d hours %2$d minutes %3$d seconds</string>
+
+    <!-- Beginner Challenges Screen -->
+    <string name="beginner_challenges_title">BEGINNER CHALLENGES</string>
+    <string name="claimed">✅ Claimed!</string>
+    <string name="claim_reward">Claim Reward</string>
+    <string name="claimed_button">Claimed</string>
+    <string name="in_progress">In progress (%1$s)</string>
+    <string name="completed_ready">Completed (%1$s) - Ready to claim! 🎉</string>
+
+    <!-- Challenge 1 -->
+    <string name="challenge_first_focus">⏱️ Complete your first focus session</string>
+    <string name="challenge_first_desc">Start a focus timer for any duration to complete this mission.</string>
+    <string name="first_focus_progress">%1$d/1</string>
+    <string name="first_focus_reward">🎁 Claim Reward (+3 Fish Bones, +5 Coins)</string>
+    <string name="first_focus_claimed_toast">🎉 Reward claimed! +3 Fish Bones, +5 Coins</string>
+
+    <!-- Challenge 2 -->
+    <string name="challenge_focus_5min">⏰ Focus for 5 minutes total</string>
+    <string name="challenge_focus_5min_desc">Accumulate 5 minutes of total focus time across multiple sessions.</string>
+    <string name="focus_5min_progress">%1$d/5 minutes</string>
+    <string name="focus_5min_reward">🎁 Claim Reward (+5 Fish Bones, +10 Coins)</string>
+    <string name="focus_5min_claimed_toast">🎉 Reward claimed! +5 Fish Bones, +10 Coins</string>
+
+    <!-- Challenge 3 -->
+    <string name="challenge_focus_10min">🔥 Focus for 10 minutes total</string>
+    <string name="challenge_focus_10min_desc">Reach a total of 10 minutes focus time to unlock this reward.</string>
+    <string name="focus_10min_progress">%1$d/10 minutes</string>
+    <string name="focus_10min_reward">🎁 Claim Reward (+7 Fish Bones, +15 Coins)</string>
+    <string name="focus_10min_claimed_toast">🎉 Reward claimed! +7 Fish Bones, +15 Coins</string>
+
+    <!-- Challenge 4 -->
+    <string name="challenge_feed_5">🐟 Feed your cat 5 times</string>
+    <string name="challenge_feed_5_desc">Use fish bones to feed your cat 5 times.</string>
+    <string name="feed_5_progress">%1$d/5 times</string>
+    <string name="feed_5_reward">🎁 Claim Reward (+10 Fish Bones, +7 Coins)</string>
+    <string name="feed_5_claimed_toast">🎉 Reward claimed! +10 Fish Bones, +7 Coins</string>
+
+    <!-- Shop Screen Messages -->
+    <string name="already_purchased">Already purchased! ✅</string>
+    <string name="select_item_first">Please select an item!</string>
+    <string name="not_enough_coins">Not enough coins! 💰</string>
+    <string name="purchase_success">✅ Purchase successful! Home updated!</string>
+
+    <!-- Shop Screen -->
+    <string name="shop_title">SHOP</string>
+    <string name="home_decorations">Home Decorations</string>
+    <string name="cat_tree">Cat Tree</string>
+    <string name="lamp">Lamp</string>
+    <string name="price_5">$ 5.00</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="purchase">Purchase</string>
+
+</resources>

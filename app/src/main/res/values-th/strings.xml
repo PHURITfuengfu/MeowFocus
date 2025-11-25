@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">MeowFocus</string>
+
+    <!-- Language -->
+    <string name="language">ภาษา:</string>
+
+    <!-- Focus Screen -->
+    <string name="focus_button">จับเวลา</string>
+    <string name="pause_button">หยุด</string>
+    <string name="hunger">ความหิว</string>
+
+    <!-- Timer Dialog -->
+    <string name="set_focus_time">⏱️ ตั้งเวลาจับเวลา</string>
+    <string name="min_label">นาที</string>
+    <string name="sec_label">วินาที</string>
+    <string name="quick_select">เลือกเร็ว</string>
+    <string name="back_button">ย้อนกลับ</string>
+    <string name="start_button">เริ่ม</string>
+
+    <!-- Toast Messages -->
+    <string name="cat_starving">แมวหิวมาก! 😿 ให้อาหารก่อนนะ</string>
+    <string name="times_up">หมดเวลา! 🎉</string>
+    <string name="invalid_time">กรุณาตั้งเวลาให้ถูกต้อง!</string>
+    <string name="cat_full">แมวอิ่มแล้ว! 😺</string>
+    <string name="cat_happy">แมวมีความสุข! ความหิว: %d%%</string>
+    <string name="no_fish_bones">ก้างปลาหมดแล้ว!</string>
+    <string name="cannot_feed_while_focusing">ไม่สามารถให้อาหารขณะจับเวลา!</string>
+
+    <!-- Navigation Menu -->
+    <string name="statistics">สถิติ</string>
+    <string name="beginner_challenges">ภารกิจเริ่มต้น</string>
+    <string name="shop">ร้านค้า</string>
+    <string name="logout">ออกจากระบบ</string>
+
+    <!-- User Info -->
+    <string name="user_name">ชื่อผู้ใช้</string>
+
+    <!-- Logout Dialog -->
+    <string name="logout_message">คุณแน่ใจหรือไม่ที่จะออกจากระบบ? ข้อมูลทั้งหมดจะถูกรีเซ็ต</string>
+    <string name="yes">ใช่</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="logged_out_success">ออกจากระบบสำเร็จ</string>
+
+    <!-- Edit Name Dialog -->
+    <string name="edit_name">แก้ไขชื่อของคุณ</string>
+    <string name="save">บันทึก</string>
+    <string name="name_cannot_empty">ชื่อไม่สามารถเว้นว่างได้</string>
+    <string name="name_updated">อัปเดตชื่อแล้ว!</string>
+
+    <!-- Statistics Screen -->
+    <string name="stats_title">สถิติ</string>
+    <string name="total_focus_time">การจับเวลารวม</string>
+    <string name="total_sessions">จำนวนครั้งทั้งหมด</string>
+    <string name="achievements">ความสำเร็จ</string>
+    <string name="minutes">นาที</string>
+    <string name="sessions">ครั้ง</string>
+    <string name="focus_time_statistics">สถิติการจับเวลา</string>
+    <string name="focus_time_tracking">ติดตามการจับเวลา</string>
+    <string name="total_focus_time_format">การจับเวลารวม: %1$d ชั่วโมง %2$d นาที %3$d วินาที</string>
+
+    <!-- Beginner Challenges Screen -->
+    <string name="beginner_challenges_title">ภารกิจเริ่มต้น</string>
+    <string name="claimed">✅ รับรางวัลแล้ว!</string>
+    <string name="claim_reward">รับรางวัล</string>
+    <string name="claimed_button">รับแล้ว</string>
+    <string name="in_progress">กำลังดำเนินการ (%1$s)</string>
+    <string name="completed_ready">เสร็จสมบูรณ์ (%1$s) - พร้อมรับรางวัล! 🎉</string>
+
+    <!-- Challenge 1 -->
+    <string name="challenge_first_focus">⏱️ จับเวลาครั้งแรก</string>
+    <string name="challenge_first_desc">เริ่มจับเวลาเมื่อใดก็ได้เพื่อทำภารกิจนี้ให้สำเร็จ</string>
+    <string name="first_focus_progress">%1$d/1</string>
+    <string name="first_focus_reward">🎁 รับรางวัล (+3 ก้างปลา, +5 เหรียญ)</string>
+    <string name="first_focus_claimed_toast">🎉 รับรางวัลแล้ว! +3 ก้างปลา, +5 เหรียญ</string>
+
+    <!-- Challenge 2 -->
+    <string name="challenge_focus_5min">⏰ จับเวลารวม 5 นาที</string>
+    <string name="challenge_focus_5min_desc">สะสมการจับเวลารวม 5 นาทีจากหลายครั้ง</string>
+    <string name="focus_5min_progress">%1$d/5 นาที</string>
+    <string name="focus_5min_reward">🎁 รับรางวัล (+5 ก้างปลา, +10 เหรียญ)</string>
+    <string name="focus_5min_claimed_toast">🎉 รับรางวัลแล้ว! +5 ก้างปลา, +10 เหรียญ</string>
+
+    <!-- Challenge 3 -->
+    <string name="challenge_focus_10min">🔥 จับเวลารวม 10 นาที</string>
+    <string name="challenge_focus_10min_desc">สะสมการจับเวลารวม 10 นาทีจากหลายครั้ง</string>
+    <string name="focus_10min_progress">%1$d/10 นาที</string>
+    <string name="focus_10min_reward">🎁 รับรางวัล (+7 ก้างปลา, +15 เหรียญ)</string>
+    <string name="focus_10min_claimed_toast">🎉 รับรางวัลแล้ว! +7 ก้างปลา, +15 เหรียญ</string>
+
+    <!-- Challenge 4 -->
+    <string name="challenge_feed_5">🐟 ให้อาหารแมว 5 ครั้ง</string>
+    <string name="challenge_feed_5_desc">ใช้ก้างปลาให้อาหารแมวของคุณ 5 ครั้ง</string>
+    <string name="feed_5_progress">%1$d/5 ครั้ง</string>
+    <string name="feed_5_reward">🎁 รับรางวัล (+10 ก้างปลา, +7 เหรียญ)</string>
+    <string name="feed_5_claimed_toast">🎉 รับรางวัลแล้ว! +10 ก้างปลา, +7 เหรียญ</string>
+
+    <!-- Shop Screen Messages -->
+    <string name="already_purchased">ซื้อไปแล้ว! ✅</string>
+    <string name="select_item_first">กรุณาเลือกสินค้า!</string>
+    <string name="not_enough_coins">เหรียญไม่พอ! 💰</string>
+    <string name="purchase_success">✅ ซื้อสำเร็จ! อัปเดตบ้านแล้ว!</string>
+
+    <!-- Shop Screen -->
+    <string name="shop_title">ร้านค้า</string>
+    <string name="home_decorations">ของตกแต่งบ้าน</string>
+    <string name="cat_tree">ที่ฝนเล็บแมว</string>
+    <string name="lamp">โคมไฟ</string>
+    <string name="price_5">$ 5.00</string>
+    <string name="coming_soon">เร็วๆ นี้</string>
+    <string name="purchase">ซื้อ</string>
+
+</resources>

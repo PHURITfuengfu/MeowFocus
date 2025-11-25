@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CA9158">
+
+    <!-- Background Image with Cat Face Shape -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="Background"
+        android:scaleType="fitXY"
+        android:src="@drawable/background" />
+
+    <!-- Content Overlay -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="32dp">
+
+        <!-- App Title -->
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MEOW FOCUS"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="40dp"
+            android:letterSpacing="0.08"/>
+
+        <!-- Spacer -->
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"/>
+
+        <!-- Isometric Room with Home Icon -->
+        <FrameLayout
+            android:id="@+id/roomContainer"
+            android:layout_width="240dp"
+            android:layout_height="240dp">
+
+            <!-- Home Icon in the center -->
+            <ImageView
+                android:id="@+id/isometricRoom"
+                android:layout_width="322dp"
+                android:layout_height="329dp"
+                android:layout_gravity="center"
+                android:contentDescription="Home Icon"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_home" />
+
+        </FrameLayout>
+
+        <!-- Spacer -->
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"/>
+
+        <!-- Welcome Home Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome Home"
+            android:textSize="22sp"
+            android:textColor="#765636"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Login"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:background="@drawable/button_login"
+            app:backgroundTint="@null"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+        <!-- Bottom Spacer -->
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/minuteText"
+    android:layout_width="65dp"
+    android:layout_height="65dp"
+    android:gravity="center"
+    android:text="15"
+    android:textSize="36sp"
+    android:textColor="#8B4513"
+    android:textStyle="bold" />
