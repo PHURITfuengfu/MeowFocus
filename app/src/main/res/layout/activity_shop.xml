@@ -327,12 +327,18 @@
 
     </ScrollView>
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
     <!-- ปุ่มซื้อ -->
     <Button
         android:id="@+id/btnPurchase"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="50dp"
         android:text="@string/purchase"
         android:textSize="18sp"
         android:textStyle="bold"
