@@ -81,8 +81,8 @@ public class FocusActivity extends AppCompatActivity {
     private long timeLeftInMillis = 40 * 60 * 1000;
     private Handler hungerHandler;
     private Runnable hungerRunnable;
-    private static final int HUNGER_DECREASE_INTERVAL = 5000; // 2 วินาที
-    private static final int HUNGER_DECREASE_AMOUNT = 10;
+    private static final int HUNGER_DECREASE_INTERVAL = 5000; 
+    private static final int HUNGER_DECREASE_AMOUNT = 1;
 
     private long originalTimeInMillis = 0;
     private boolean isTimerRunning = false;
@@ -325,7 +325,6 @@ public class FocusActivity extends AppCompatActivity {
     }
 
     // ฟังก์ชันลดหลอดอาหาร
-    // ฟังก์ชันลดหลอดอาหาร
     private void decreaseHunger() {
         if (hungerLevel > 0) {
             int oldHungerLevel = hungerLevel;
@@ -409,8 +408,8 @@ public class FocusActivity extends AppCompatActivity {
                 params.height = (int) (100 * dpToPx);  // ✅ เปลี่ยนจาก 150 เป็น 100
                 catWalkView.setLayoutParams(params);
 
-                float positionX = 130;  // ✅ ปรับค่านี้เพื่อเลื่อนซ้าย-ขวา
-                float positionY = -110;  // ✅ ปรับค่านี้เพื่อเลื่อนบน-ล่าง
+                float positionX = 110;  // ✅ ปรับค่านี้เพื่อเลื่อนซ้าย-ขวา
+                float positionY = -80;  // ✅ ปรับค่านี้เพื่อเลื่อนบน-ล่าง
 
                 catWalkView.setTranslationX(positionX * dpToPx);
                 catWalkView.setTranslationY(positionY * dpToPx);
@@ -445,8 +444,8 @@ public class FocusActivity extends AppCompatActivity {
             }
 
             float dpToPx = catWalkView.getResources().getDisplayMetrics().density;
-            catWalkView.setTranslationY(-70 * dpToPx);
-            catWalkView.setTranslationX(150 * dpToPx);
+            catWalkView.setTranslationY(-40 * dpToPx);
+            catWalkView.setTranslationX(120 * dpToPx);
 
             if (!isTimerRunning) {
                 float fromX = catWalkView.getTranslationX();
@@ -793,8 +792,8 @@ public class FocusActivity extends AppCompatActivity {
                     }
 
                     float dpToPx = catWalkView.getResources().getDisplayMetrics().density;
-                    catWalkView.setTranslationY(-70 * dpToPx);
-                    catWalkView.setTranslationX(150 * dpToPx);
+                    catWalkView.setTranslationY(-40 * dpToPx);
+                    catWalkView.setTranslationX(120 * dpToPx);
 
                     float fromX = catWalkView.getTranslationX();
                     float toX = fromX + (-20 * dpToPx);
@@ -1260,8 +1259,8 @@ public class FocusActivity extends AppCompatActivity {
             catWalkView.setBackgroundResource(sitImageId);
 
             float dpToPx = catWalkView.getResources().getDisplayMetrics().density;
-            float deskX = 69 * dpToPx;
-            float deskY = -92 * dpToPx;
+            float deskX = 57 * dpToPx;
+            float deskY = -60 * dpToPx;
 
             catWalkView.animate()
                     .translationX(deskX)
